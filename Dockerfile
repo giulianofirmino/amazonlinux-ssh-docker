@@ -1,7 +1,7 @@
 FROM amazonlinux
 
 RUN yum -y update
-RUN yum -y install openssh-server passwd sudo
+RUN yum -y install binutils gcc make tar zip unzip wget procps-ng openssh-server passwd sudo
 
 RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N '' 
 
