@@ -3,7 +3,7 @@
 Building & Running
 Copy the sources to your docker host and build the container:
 
-		$ docker build --rm -t <username>/amazonlinux-ssh-docker
+		$ docker build -t <username>/amazonlinux-ssh-docker .
 
 To run:
 
